@@ -29,12 +29,6 @@ This is a PostgreSQL vet clinic database create to make user to access animal da
 
 ![screenshot](![Screen Shot 2023-05-16 at 16 23 46](https://github.com/TaiwoEnoch/Vet_clinic_database/assets/111912283/b1fef055-5fe3-4325-8b97-04a8aeef193e))
 
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [To be unpdated]
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🛠 Built With <a name="built-with"></a>
