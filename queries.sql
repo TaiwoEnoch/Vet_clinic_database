@@ -39,3 +39,6 @@ COMMIT;
 SELECT * FROM animals; -- Verify changes are committed
 
 SELECT COUNT(*) AS total_animals FROM animals;
+
+SELECT COUNT(*) AS animals_no_escape FROM animals WHERE escape_attempts = 0;
+
