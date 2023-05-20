@@ -21,3 +21,9 @@ UPDATE animals SET species = 'pokemon' WHERE species IS NULL;
 SELECT * FROM animals; -- Verify the changes
 COMMIT;
 SELECT * FROM animals; -- Verify the changes persist after commit
+
+BEGIN;
+DELETE FROM animals;
+SELECT * FROM animals; -- Verify all records are deleted
+ROLLBACK;
+SELECT * FROM animals; -- Verify all records are restored
