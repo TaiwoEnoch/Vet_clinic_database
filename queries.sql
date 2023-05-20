@@ -14,3 +14,10 @@ UPDATE animals SET species = 'unspecified';
 SELECT * FROM animals; -- Verify the change
 ROLLBACK;
 SELECT * FROM animals; -- Verify the rollback
+
+BEGIN;
+UPDATE animals SET species = 'digimon' WHERE name LIKE '%mon';
+UPDATE animals SET species = 'pokemon' WHERE species IS NULL;
+SELECT * FROM animals; -- Verify the changes
+COMMIT;
+SELECT * FROM animals; -- Verify the changes persist after commit
