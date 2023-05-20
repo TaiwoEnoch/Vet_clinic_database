@@ -37,3 +37,5 @@ ROLLBACK TO weight_update;
 SELECT * FROM animals; -- Verify the rollback of weight changes
 COMMIT;
 SELECT * FROM animals; -- Verify changes are committed
+
+SELECT COUNT(*) AS total_animals FROM animals;
