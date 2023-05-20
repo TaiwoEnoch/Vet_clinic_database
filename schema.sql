@@ -39,5 +39,14 @@ CREATE TABLE specializations (
   species VARCHAR(255),
   FOREIGN KEY (vet_id) REFERENCES vets(id)
 );
-SELECT * FROM specializations
+
+CREATE TABLE visits (
+  animal VARCHAR(255),
+  vet_id INTEGER,
+  visit_date DATE,
+  FOREIGN KEY (vet_id) REFERENCES vets(id)
+);
+
+
+
 
