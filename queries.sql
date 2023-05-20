@@ -27,3 +27,13 @@ DELETE FROM animals;
 SELECT * FROM animals; -- Verify all records are deleted
 ROLLBACK;
 SELECT * FROM animals; -- Verify all records are restored
+
+BEGIN;
+DELETE FROM animals WHERE date_of_birth > '2022-01-01';
+SAVEPOINT weight_update;
+UPDATE animals SET weight = weight * -1;
+SELECT * FROM animals; -- Verify the weight update
+ROLLBACK TO weight_update;
+SELECT * FROM animals; -- Verify the rollback of weight changes
+COMMIT;
+SELECT * FROM animals; -- Verify changes are committed
