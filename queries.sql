@@ -44,3 +44,5 @@ SELECT COUNT(*) AS animals_no_escape FROM animals WHERE escape_attempts = 0;
 
 SELECT AVG(weight) AS average_weight FROM animals;
 
+SELECT neutered, SUM(escape_attempts) AS total_escape_attempts
+
