@@ -62,4 +62,8 @@ VALUES ('Charmander', '2020-02-08', -11, false, 0),
        ('Blossom', '1998-10-13', 17, true, 3),
        ('Ditto', '2022-05-14', 22, true, 4);
 
-SELECT * FROM animals
+INSERT INTO vets (name, age, date_of_graduation) VALUES
+  ('William Tatcher', 45, '2000-04-23'),
+  ('Maisy Smith', 26, '2019-01-17'),
+  ('Stephanie Mendez', 64, '1981-05-04'),
+  ('Jack Harkness', 38, '2008-06-08');
