@@ -89,4 +89,57 @@ SELECT AVG(weight) AS average_weight FROM animals;
 
 SELECT neutered, SUM(escape_attempts) AS total_escape_attempts
 
+SELECT animal
+FROM visits
+WHERE vet_id = (SELECT id FROM vets WHERE name = 'William Tatcher')
+ORDER BY visit_date DESC
+LIMIT 1;
+
+SELECT COUNT(DISTINCT animal)
+FROM visits
+WHERE vet_id = (SELECT id FROM vets WHERE name = 'Stephanie Mendez');
+
+SELECT vets.name, specializations.species
+FROM vets
+LEFT JOIN specializations ON vets.id = specializations.vet_id;
+
+SELECT animal
+FROM visits
+WHERE vet_id = (SELECT id FROM vets WHERE name = 'Stephanie Mendez')
+  AND visit_date BETWEEN '2020-04-01' AND '2020-08-30';
+  
+ SELECT animal, COUNT(*) AS visit_count
+FROM visits
+GROUP BY animal
+ORDER BY visit_count DESC
+LIMIT 1;
+
+SELECT vet_id, visit_date
+FROM visits
+WHERE animal = (SELECT animal FROM visits WHERE vet_id = (SELECT id FROM vets WHERE name = 'Maisy Smith') ORDER BY visit_date LIMIT 1)
+ORDER BY visit_date
+LIMIT 1;
+
+SELECT v.name AS vet_name, v.age AS vet_age, v.date_of_graduation AS vet_graduation_date,
+       a.animal, vst.visit_date
+FROM visits vst
+JOIN vets v ON vst.vet_id = v.id
+JOIN (SELECT animal, MAX(visit_date) AS max_date FROM visits GROUP BY animal) AS a
+  ON vst.animal = a.animal AND vst.visit_date = a.max_date;
+  
+  SELECT COUNT(*)
+FROM visits v
+LEFT JOIN specializations s ON v.vet_id = s.vet_id AND v.animal = s.species
+WHERE s.vet_id IS NULL;
+
+SELECT s.species, COUNT(*) AS visit_count
+FROM visits v
+JOIN specializations s ON v.vet_id = s.vet_id
+WHERE v.animal = (SELECT animal FROM visits WHERE vet_id = (SELECT id FROM vets WHERE name = 'Maisy Smith') ORDER BY visit_date LIMIT 1)
+GROUP BY s.species
+ORDER BY visit_count DESC
+LIMIT 1;
+
+
+
 
