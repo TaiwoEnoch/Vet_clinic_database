@@ -78,7 +78,7 @@ Clone this repository to your desired folder:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 👥 Author
+## 👥 Authors
  <a name="author"></a>
 
 👤 **Enoch Taiwo**
@@ -86,6 +86,12 @@ Clone this repository to your desired folder:
 - [Github](https://github.com/TaiwoEnoch)
 - [Linkedin](https://www.linkedin.com/in/taiwo01/)
 - [Twitter](https://twitter.com/taiwoenoch4)
+
+👤 **Mudassir Nazir**
+
+- GitHub: [@Mudassir](https://github.com/Rana-Mudassir)
+- Facebook: [@Facebook](https://www.facebook.com/rana.mudasir.142)
+- LinkedIn: [@LinkedIn](https://www.linkedin.com/in/rana-mudassir-nazir-03541114a/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
