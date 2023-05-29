@@ -104,17 +104,6 @@ Clone this repository to your desired folder:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 👥 Author
- <a name="author"></a>
-
-👤 **Enoch Taiwo**
-
-- [Github](https://github.com/TaiwoEnoch)
-- [Linkedin](https://www.linkedin.com/in/taiwo01/)
-- [Twitter](https://twitter.com/taiwoenoch4)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## 🤝 Contributing <a name="contributing"></a>
 
