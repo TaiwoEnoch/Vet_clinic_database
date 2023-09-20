@@ -25,12 +25,12 @@
 <a name="about-project"></a>
 
 # Vet_Clinic_Database
-This is a PostgreSQL vet clinic database created to make users to access animal databases.
+This is a PostgreSQL vet clinic database created to allow users to access animal databases.
 
 <a name="about-project"></a>
 
 # Vet_Clinic_Database
-This is a PostgreSQL vet clinic database create to make user to access animal database.
+This is a PostgreSQL vet clinic database created to allow users to access animal databases.
 
 
 ![screenshot](![Screen Shot 2023-05-16 at 16 23 46](https://github.com/TaiwoEnoch/Vet_clinic_database/assets/111912283/b1fef055-5fe3-4325-8b97-04a8aeef193e))
@@ -58,12 +58,12 @@ To get a local copy up and running follow these simple example steps.
 - Open terminal
 - Clone this project by the command `https://github.com/TaiwoEnoch/Vet_clinic_database.git`
 - `cd <clone>` folder
-- Click on your local browser or using Live Server in Visual Studio Code.
+- Click on your local browser or use Live Server in Visual Studio Code.
 
 ### Setup
 
 Clone this repository to your desired folder:
-`cd my-folder`
+`cd my folder
 `git clone https://github.com/TaiwoEnoch/Vet_clinic_database.git`
 
 
