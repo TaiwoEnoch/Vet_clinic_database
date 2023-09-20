@@ -25,7 +25,7 @@
 <a name="about-project"></a>
 
 # Vet_Clinic_Database
-This is a PostgreSQL vet clinic database create to make user to access animal database.
+This is a PostgreSQL vet clinic database created to make users to access animal databases.
 
 <a name="about-project"></a>
 
