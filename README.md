@@ -71,7 +71,7 @@ Clone this repository to your desired folder:
 ### Future Features
 
 - Add Multiple Tables
-- Add joint visit table
+- Add joint visit tables
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
