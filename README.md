@@ -119,7 +119,7 @@ If you like this project you can give it a ⭐️.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
+## 🙏 Acknowledgment <a name="acknowledgements"></a>
 
 Thanks to Microverse
 
