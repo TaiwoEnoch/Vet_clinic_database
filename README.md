@@ -30,7 +30,7 @@ This is a PostgreSQL vet clinic database created to allow users to access animal
 <a name="about-project"></a>
 
 # Vet_Clinic_Database
-This is a PostgreSQL vet clinic database created to allow users to access animals databases.
+This is a PostgreSQL vet clinic database created to allow users to access animal databases.
 
 
 ![screenshot](![Screen Shot 2023-05-16 at 16 23 46](https://github.com/TaiwoEnoch/Vet_clinic_database/assets/111912283/b1fef055-5fe3-4325-8b97-04a8aeef193e))
