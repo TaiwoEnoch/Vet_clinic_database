@@ -78,7 +78,7 @@ Clone this repository to your desired folder:
 ## 👥 Author
  <a name="author"></a>
 
-👤 **Enoch Taiwo**
+👤 **Taiwo Enoch**
 
 - [Github](https://github.com/TaiwoEnoch)
 - [Linkedin](https://www.linkedin.com/in/taiwo01/)
