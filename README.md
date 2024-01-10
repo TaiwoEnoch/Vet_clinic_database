@@ -115,7 +115,7 @@ Contributions, issues, and feature requests are welcome!
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project you can give it a ⭐️.
+If you like this project you can kindly give it a ⭐️.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
